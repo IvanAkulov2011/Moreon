@@ -32,6 +32,10 @@ button {
   font-weight: 500;
   font-style: normal;
 }
+body {
+  background-color: #00100f;
+}
+
 .container {
   max-width: 1080px;
   margin: 0 auto;
@@ -90,4 +94,69 @@ button {
 }
 .header-button .navigation__menu li:last-child {
   margin-right: 0;
+}
+
+.banner {
+  background-image: url("../img/png/banner-index.png");
+  background-position-x: right;
+  background-repeat: no-repeat;
+  padding-top: 66px;
+  padding-bottom: 106px;
+}
+.banner__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner__text h1 {
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-size: 54px;
+  color: #fff;
+  max-width: 511px;
+  line-height: 144.8148148148%;
+}
+.banner__text h1 span {
+  color: #33b0aa;
+}
+.banner__text ul {
+  margin-bottom: 47px;
+}
+.banner__text ul li {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  color: #fff;
+  margin-bottom: 16px;
+  padding-left: 12px;
+  border-left: 2px solid #28b0a9;
+}
+.banner__text ul li:last-child {
+  margin-bottom: 0px;
+}
+.banner__text button {
+  position: relative;
+  border: none;
+  background: transparent;
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #fff;
+  padding: 16px 30px;
+}
+.banner__text button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  background: linear-gradient(180deg, #fff 0%, #b5b5b5 100%);
+  border-radius: 12px;
+  box-shadow: 0px 20px 40px 0 rgba(51, 51, 51, 0.47), inset 0px 9px 9px 0 #fff, inset 0px -9px 9px 0 #a2a2a2;
+  opacity: 0.2;
 }/*# sourceMappingURL=style.css.map */
