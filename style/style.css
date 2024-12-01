@@ -18,6 +18,7 @@ a {
 
 button {
   border: none;
+  background: none;
 }
 
 @font-face {
@@ -41,6 +42,55 @@ body {
   margin: 0 auto;
   position: relative;
   z-index: 3;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-right: 30px;
+}
+.slider__box {
+  display: flex;
+  justify-content: space-between;
+}
+.slider__item a img {
+  border-radius: 12px;
+  width: 340px;
+  height: 340px;
+}
+.slider__pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.slider__pagination li {
+  width: 14px;
+  height: 14px;
+  background: #fff;
+  opacity: 0.2;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+.slider__pagination li:last-child {
+  margin-right: 0px;
+}
+.slider__pagination .active {
+  opacity: 1;
+}
+.slider__button {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+.slider__button button:first-child {
+  position: absolute;
+  left: -70px;
+}
+.slider__button button:last-child {
+  position: absolute;
+  right: -70px;
 }
 
 .header-top {
@@ -261,16 +311,109 @@ body {
   border-radius: 12px;
   background: transparent;
 }
-.sale .slider {
-  display: flex;
-  flex-direction: column;
+
+.news {
+  padding: 120px 0px;
 }
-.sale .slider__box {
-  display: flex;
-  justify-content: space-between;
+.news .title {
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 39px;
 }
-.sale .slider__item a img {
+.news .title span {
+  color: #33b0aa;
+}
+.news .slider__item a img {
+  width: 248px;
+  height: 248px;
   border-radius: 12px;
-  width: 340px;
-  height: 340px;
+}
+.news .slider__item h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 248px;
+  margin-bottom: 10px;
+  margin-top: 14px;
+}
+.news .slider__item p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 142%;
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 248px;
+}
+.news .tab {
+  display: flex;
+  margin-bottom: 41px;
+}
+.news .tab__item {
+  border-radius: 12px;
+  padding: 10px 14px;
+  -webkit-backdrop-filter: blur(30px);
+          backdrop-filter: blur(30px);
+  background: rgba(255, 255, 255, 0.2);
+  opacity: 0.8;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #fff;
+  margin-right: 8px;
+}
+.news .tab__item:last-child {
+  margin-right: 0;
+}
+.news .tab__active {
+  border: 1px solid #fff;
+  border-radius: 12px;
+  background: transparent;
+}
+
+.list {
+  background-image: url("../img/png/Bg.png");
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.list .title {
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 29px;
+}
+.list .tab {
+  display: flex;
+  margin-bottom: 41px;
+}
+.list .tab__item {
+  border-radius: 12px;
+  padding: 10px;
+  -webkit-backdrop-filter: blur(30px);
+          backdrop-filter: blur(30px);
+  background: rgba(255, 255, 255, 0.2);
+  opacity: 0.8;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #fff;
+  margin-right: 8px;
+}
+.list .tab__item:last-child {
+  margin-right: 0;
+}
+.list .tab__active {
+  border: 1px solid #fff;
+  border-radius: 12px;
+  background: transparent;
 }/*# sourceMappingURL=style.css.map */

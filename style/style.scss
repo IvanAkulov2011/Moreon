@@ -13,6 +13,63 @@ body{
     position: relative;
     z-index: 3;
 }
+.slider{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-right: 30px;
+    &__box{
+        display: flex;
+        justify-content: space-between;
+        
+        
+    }
+    &__item{
+        a{
+            img{
+                border-radius: 12px;
+                width: 340px;
+                height: 340px;
+                
+            }
+        }
+        
+    }
+    &__pagination{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        li{
+            width: 14px;
+            height: 14px;
+            background: #fff;
+            opacity: 0.2;
+            border-radius: 100%;
+            margin-right: 10px;
+            
+        }
+        li:last-child{
+            margin-right: 0px;
+        }
+        .active{
+            opacity: 1;
+        }
+    }
+    &__button{
+        position: absolute;
+        top: 40%;
+        transform: translateY(-50%);
+        width: 100%;
+        button:first-child{
+            position: absolute;
+            left: -70px;
+        }
+        button:last-child{
+            position: absolute;
+            right: -70px;
+        }
+    }
+}
 //    --- верхняя часть ---
 .header-top{    
     background: #004643;
@@ -200,6 +257,7 @@ body{
     background-size: cover;
     position: relative;
     z-index: 2;
+    
     h2{
         font-family: "Dela Gothic One", sans-serif;
         font-weight: 400;
@@ -233,25 +291,115 @@ body{
             background: transparent;
         }
     }
-    .slider{
-        display: flex;
-        flex-direction: column;
-        &__box{
-            display: flex;
-            justify-content: space-between;
-            
-            
+}
+.news{
+    padding: 120px 0px;
+    .title{
+        font-family: "Dela Gothic One", sans-serif;
+        font-weight: 400;
+        font-size: 40px;
+        color: #fff;
+        margin-bottom: 39px;
+        span{
+            color: #33b0aa;
         }
+    }
+    .slider{
         &__item{
             a{
                 img{
+                    width: 248px;
+                    height: 248px;
                     border-radius: 12px;
-                    width: 340px;
-                    height: 340px;
                     
                 }
             }
-            
+            h3{
+                font-family: "Montserrat", sans-serif;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 140%;
+                color: rgba(255, 255, 255, 0.8);
+                max-width: 248px;
+                margin-bottom: 10px;
+                margin-top: 14px;
+            }
+            p{
+                font-family: "Montserrat", sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 142%;
+                color: rgba(255, 255, 255, 0.8);
+                max-width: 248px;
+            }
+        }
+        
+    }
+    .tab{
+        display: flex;
+        margin-bottom: 41px; 
+        &__item{
+            border-radius: 12px;
+            padding: 10px 14px;
+            backdrop-filter: blur(30px);
+            background: rgba(255, 255, 255, 0.2);
+            opacity: 0.8;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 140%;
+            text-align: center;
+            color: #fff;
+            margin-right: 8px;
+        }
+        &__item:last-child{
+            margin-right: 0;
+        }
+        &__active{
+            border: 1px solid #fff;
+            border-radius: 12px;
+            background: transparent;
         }
     }
+}
+.list{
+    background-image: url("../img/png/Bg.png");
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .title{
+        font-family: "Dela Gothic One", sans-serif;
+        font-weight: 400;
+        font-size: 40px;
+        color: #fff;
+        margin-bottom: 29px;
+    }
+    .tab{
+        display: flex;
+        margin-bottom: 41px; 
+        &__item{
+            border-radius: 12px;
+            padding: 10px ;
+            backdrop-filter: blur(30px);
+            background: rgba(255, 255, 255, 0.2);
+            opacity: 0.8;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 140%;
+            text-align: center;
+            color: #fff;
+            margin-right: 8px;
+        }
+        &__item:last-child{
+            margin-right: 0;
+        }
+        &__active{
+            border: 1px solid #fff;
+            border-radius: 12px;
+            background: transparent;
+        }
+    }
+
 }
