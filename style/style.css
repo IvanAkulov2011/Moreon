@@ -416,4 +416,87 @@ body {
   border: 1px solid #fff;
   border-radius: 12px;
   background: transparent;
+}
+.list .slider__box {
+  flex-wrap: wrap;
+}
+.list .slider__item {
+  margin-bottom: 30px;
+}
+
+.coach {
+  width: 248px;
+  height: 350px;
+  border-radius: 24px;
+  position: relative;
+}
+.coach img {
+  width: 100% !important;
+  height: 100% !important;
+}
+.coach__info {
+  position: absolute;
+  bottom: -4px;
+}
+.coach__info h3 {
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #33b0aa;
+  margin-bottom: 6px;
+  position: absolute;
+  z-index: 9999;
+  bottom: 66px;
+  left: 20px;
+}
+.coach__info p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #fff;
+  opacity: 0.6;
+  position: absolute;
+  z-index: 9999;
+  max-width: 208px;
+  left: 20px;
+  bottom: 20px;
+}
+
+.gallery {
+  background-image: url("../img/png/MSMC_Wood_Illustration 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 0px;
+}
+.gallery__title {
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 39px;
+}
+.gallery__box img {
+  border-radius: 12px;
+  width: 340px;
+  height: 191px;
+  margin-right: 17px;
+  margin-bottom: 30px;
+}
+.gallery__box img:last-child {
+  margin-right: 0px;
+}
+.gallery button {
+  border-radius: 12px;
+  background: #323e3d;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #fff;
+  padding: 16px 30px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }/*# sourceMappingURL=style.css.map */
