@@ -364,10 +364,10 @@ body{
 }
 .list{
     background-image: url("../img/png/Bg.png");
-    padding-top: 120px;
-    padding-bottom: 120px;
     background-size: cover;
     background-repeat: no-repeat;
+    padding-top: 120px;
+    padding-bottom: 120px;
     .title{
         font-family: "Dela Gothic One", sans-serif;
         font-weight: 400;
@@ -488,5 +488,147 @@ body{
         position: relative;
         left: 50%;
         transform: translateX(-50%);
+    }
+}
+.company{
+    padding: 120px 0px;
+    &__second{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.yasnevo{
+    background-image: url("../img/png/Bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 120px 0px;
+    &__title{
+        font-family: "Dela Gothic One", sans-serif;
+        font-weight: 400;
+        font-size: 40px;
+        color: #fff;
+        margin-bottom: 39px;
+        span{
+            color: #33b0aa;
+        }
+    }
+    &__box{
+        backdrop-filter: blur(30px);
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(181, 181, 181, 0.2) 100%);
+        border-radius: 24px;
+        padding: 40px;
+        p{
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 140%;
+            color: #fff;
+            opacity: 0.8;
+            margin-bottom: 14px;
+        }
+        p:last-child{
+            margin-bottom: 0px;
+        }
+    }
+}
+.contact{
+    padding-bottom: 120px;
+    &__box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__info{
+        display: flex;
+        flex-direction: column;
+        h2{
+            font-family: "Dela Gothic One", sans-serif;
+            font-weight: 400;
+            font-size: 40px;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        span{
+            font-family: "Montserrat", sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 140%;
+            color: rgba(255, 255, 255, 0.8);
+        }
+        p,a{
+            font-family: "Montserrat", sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 140%;
+            color: #fff;
+            margin-bottom: 20px;
+            max-width: 410px;
+        }
+    }
+}
+.footer{
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.05);
+    background: #000908;
+    padding-top: 50px;
+    .fotter{
+        &__top{
+            display: flex;
+            justify-content: space-between;
+        }
+        &__time{
+            a{
+                img{
+                    width: 117px;
+                }
+            }
+            h3{
+                font-family: "Montserrat", sans-serif;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 140%;
+                color: rgba(255, 255, 255, 0.8);
+                margin-bottom: 17px;
+                margin-top: 20px;
+            }
+            ul{
+                margin-bottom: 17px;
+                li{
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 140%;
+                    color: rgba(255, 255, 255, 0.8);
+                    margin-bottom: 9px;
+                }
+            }
+        }
+        &__menu{
+            li{
+                margin-bottom: 9px;
+                a{
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 140%;
+                    color: rgba(255, 255, 255, 0.8);
+                }
+            }
+            li:last-child{
+                margin-bottom: 0px;
+            }
+        }
+        &__botton{
+            display: flex;
+            justify-content: space-between;
+            padding: 22px 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);;
+            p,a{
+                font-family: "Montserrat", sans-serif;
+                font-weight: 400;
+                font-size: 12px;
+                color: rgba(255, 255, 255, 0.8);
+            }
+        }
     }
 }
