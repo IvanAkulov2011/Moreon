@@ -582,19 +582,19 @@ body {
   max-width: 410px;
 }
 
-.footer {
+footer {
   box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.05);
   background: #000908;
   padding-top: 50px;
 }
-.footer .fotter__top {
+footer .footer__top {
   display: flex;
   justify-content: space-between;
 }
-.footer .fotter__time a img {
+footer .footer__time a img {
   width: 117px;
 }
-.footer .fotter__time h3 {
+footer .footer__time h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -603,10 +603,10 @@ body {
   margin-bottom: 17px;
   margin-top: 20px;
 }
-.footer .fotter__time ul {
+footer .footer__time ul {
   margin-bottom: 17px;
 }
-.footer .fotter__time ul li {
+footer .footer__time ul li {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -614,26 +614,26 @@ body {
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: 9px;
 }
-.footer .fotter__menu li {
+footer .footer__menu li {
   margin-bottom: 9px;
 }
-.footer .fotter__menu li a {
+footer .footer__menu li a {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 140%;
   color: rgba(255, 255, 255, 0.8);
 }
-.footer .fotter__menu li:last-child {
+footer .footer__menu li:last-child {
   margin-bottom: 0px;
 }
-.footer .fotter__botton {
+footer .footer__botton {
   display: flex;
   justify-content: space-between;
   padding: 22px 0;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
-.footer .fotter__botton p, .footer .fotter__botton a {
+footer .footer__botton p, footer .footer__botton a {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 12px;
