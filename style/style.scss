@@ -21,8 +21,6 @@ body{
     &__box{
         display: flex;
         justify-content: space-between;
-        
-        
     }
     &__item{
         a{
@@ -33,7 +31,6 @@ body{
                 
             }
         }
-        
     }
     &__pagination{
         display: flex;
@@ -46,7 +43,6 @@ body{
             opacity: 0.2;
             border-radius: 100%;
             margin-right: 10px;
-            
         }
         li:last-child{
             margin-right: 0px;
@@ -632,3 +628,51 @@ footer{
         }
     }
 }
+.banner-page2{
+    background-image: url("../img/png/Bg-page2.png");
+    max-width: 1280px;
+    max-height: 645px;
+    margin-right: 113px;
+    &__text{
+        padding: 317px 130px;
+        padding-bottom: 281px;
+     h1{
+         font-family: "Dela Gothic One", sans-serif;
+         font-weight: 400;
+         font-size: 54px;
+         color: #fff;
+         max-width: 511px;
+         line-height: 78.2/54*100%;
+         justify-content: center;
+         span{
+             color: #33b0aa;
+         }
+     }
+     button{
+         border-radius: 12px;
+         font-family: "Montserrat", sans-serif;
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 140%;
+         color: #fff;
+         padding: 16px 30px;
+         box-shadow: 0px 12px 23px 0 rgba(8, 35, 34, 0.56), inset 0px 6px 6px 0 #36ece3, inset -0px -6px 6px 0 #176561;
+         background: linear-gradient(180deg, #32ddd4 0%, #1a746f 100%);
+         margin-right: 30px;
+     }
+ 
+     button:last-child{
+         background: $Buttonlast-child_color;
+         border-radius: 12px;
+         font-family: "Montserrat", sans-serif;
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 140%;
+         color: #fff;
+         padding: 16px 30px;
+         box-shadow: none;
+         margin-right: 0;
+         
+     }
+    }
+}    

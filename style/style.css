@@ -638,4 +638,51 @@ footer .footer__botton p, footer .footer__botton a {
   font-weight: 400;
   font-size: 12px;
   color: rgba(255, 255, 255, 0.8);
+}
+
+.banner-page2 {
+  background-image: url("../img/png/Bg-page2.png");
+  max-width: 1280px;
+  max-height: 645px;
+  margin-right: 113px;
+}
+.banner-page2__text {
+  padding: 317px 130px;
+  padding-bottom: 281px;
+}
+.banner-page2__text h1 {
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-size: 54px;
+  color: #fff;
+  max-width: 511px;
+  line-height: 144.8148148148%;
+  justify-content: center;
+}
+.banner-page2__text h1 span {
+  color: #33b0aa;
+}
+.banner-page2__text button {
+  border-radius: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #fff;
+  padding: 16px 30px;
+  box-shadow: 0px 12px 23px 0 rgba(8, 35, 34, 0.56), inset 0px 6px 6px 0 #36ece3, inset 0px -6px 6px 0 #176561;
+  background: linear-gradient(180deg, #32ddd4 0%, #1a746f 100%);
+  margin-right: 30px;
+}
+.banner-page2__text button:last-child {
+  background: #323e3d;
+  border-radius: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #fff;
+  padding: 16px 30px;
+  box-shadow: none;
+  margin-right: 0;
 }/*# sourceMappingURL=style.css.map */
