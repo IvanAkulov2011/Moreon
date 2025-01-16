@@ -640,49 +640,90 @@ footer .footer__botton p, footer .footer__botton a {
   color: rgba(255, 255, 255, 0.8);
 }
 
-.banner-page2 {
-  background-image: url("../img/png/Bg-page2.png");
-  max-width: 1280px;
-  max-height: 645px;
-  margin-right: 113px;
+.banner-club {
+  background-image: url("../img/png/banner-club.png");
+  background-position-x: left;
+  background-size: cover;
+  padding-top: 130px;
+  padding-bottom: 170px;
+  display: flex;
 }
-.banner-page2__text {
-  padding: 317px 130px;
-  padding-bottom: 281px;
+.banner-club .svg-box {
+  display: none;
 }
-.banner-page2__text h1 {
+.banner-club h1 {
+  max-width: 647px;
+  text-align: center;
+  margin-bottom: 56px;
+}
+.banner-club .banner-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.club {
+  padding: 120px 0;
+}
+.club__title {
   font-family: "Dela Gothic One", sans-serif;
   font-weight: 400;
-  font-size: 54px;
+  font-size: 40px;
   color: #fff;
-  max-width: 511px;
-  line-height: 144.8148148148%;
-  justify-content: center;
+  margin-bottom: 20px;
 }
-.banner-page2__text h1 span {
+.club__title span {
   color: #33b0aa;
 }
-.banner-page2__text button {
-  border-radius: 12px;
+.club p {
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 140%;
   color: #fff;
-  padding: 16px 30px;
-  box-shadow: 0px 12px 23px 0 rgba(8, 35, 34, 0.56), inset 0px 6px 6px 0 #36ece3, inset 0px -6px 6px 0 #176561;
-  background: linear-gradient(180deg, #32ddd4 0%, #1a746f 100%);
-  margin-right: 30px;
+  max-width: 463px;
 }
-.banner-page2__text button:last-child {
-  background: #323e3d;
-  border-radius: 12px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 140%;
-  color: #fff;
-  padding: 16px 30px;
-  box-shadow: none;
+.club__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.club__slider .img img {
+  border-radius: 24px;
+  width: 525px;
+  height: 296px;
+}
+.club__slider .pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.club__slider .pagination .pagination-circle {
+  width: 14px;
+  height: 14px;
+  border-radius: 100%;
+  background: #fff;
+  opacity: 0.2;
+  margin-right: 10px;
+}
+.club__slider .pagination .pagination-circle:last-child {
   margin-right: 0;
+}
+.club__slider .pagination .active-pag {
+  opacity: 1;
+}
+.club__slider .arrow {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.club__slider .arrow__left {
+  position: absolute;
+  left: -70px;
+}
+.club__slider .arrow__right {
+  position: absolute;
+  right: -70px;
 }/*# sourceMappingURL=style.css.map */
