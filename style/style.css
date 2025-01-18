@@ -688,6 +688,9 @@ footer .footer__botton p, footer .footer__botton a {
   align-items: center;
   justify-content: space-between;
 }
+.club__slider {
+  position: relative;
+}
 .club__slider .img img {
   border-radius: 24px;
   width: 525px;

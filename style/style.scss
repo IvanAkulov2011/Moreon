@@ -677,6 +677,7 @@ footer{
         justify-content: space-between;
     }
     &__slider{
+        position: relative;
         .img{
             img{
                 border-radius: 24px;
