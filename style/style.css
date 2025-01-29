@@ -687,6 +687,7 @@ footer .footer__botton p, footer .footer__botton a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 80px;
 }
 .club__slider {
   position: relative;
@@ -729,4 +730,57 @@ footer .footer__botton p, footer .footer__botton a {
 .club__slider .arrow__right {
   position: absolute;
   right: -70px;
+}
+.club__text {
+  position: relative;
+}
+.club__text h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 142%;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 14px;
+  position: relative;
+  z-index: 9999;
+}
+.club__text p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #fff;
+  opacity: 0.8;
+  margin-bottom: 18px;
+  max-width: 432px;
+  position: relative;
+}
+.club__text .back {
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 100px;
+  line-height: 142%;
+  text-transform: uppercase;
+  top: -86px;
+  left: -14px;
+  right: -202px;
+  text-align: justify;
+  color: #00100f;
+  text-shadow: -1px -1px 0 #192827, 1px -1px 0 #192827, -1px 1px 0 #192827, 1px 1px 0 #192827, -1px 0 0 #192827, 1px -1px 0 #192827, 0 -1px 0 #192827, 0 1px 0 #192827;
+}
+
+.program {
+  padding: 120px;
+}
+.program h2 {
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 24px;
+}
+.program h2 span {
+  color: #33b0aa;
 }/*# sourceMappingURL=style.css.map */
