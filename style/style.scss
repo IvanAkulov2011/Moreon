@@ -733,7 +733,7 @@ footer{
             color: #fff;
             margin-bottom: 14px;
             position: relative;
-            z-index: 9999;
+            z-index: 1;
         }
         p{
             font-family: "Montserrat", sans-serif;
@@ -745,6 +745,7 @@ footer{
             margin-bottom: 18px;
             max-width: 432px;
             position: relative;
+            z-index: 1;
 
         }
         .back{
@@ -759,6 +760,7 @@ footer{
             right: -202px;
             text-align: justify;
             color: #00100f;
+            z-index: -1;
             text-shadow: 
                 -1px -1px 0 #192827,
                  1px -1px 0 #192827,
@@ -781,6 +783,72 @@ footer{
         margin-bottom: 24px;
         span{          
             color: #33b0aa;
+        }
+    }
+    .tab-menu{
+        display: flex;
+        li{
+            font-family: "Montserrat", sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 142%;
+            color: #fff;
+            border-radius: 12px 12px 0 0;
+            padding: 10px 14px;
+            cursor: pointer;
+        }
+    }
+    .tab-active{
+        backdrop-filter: blur(30px);
+        background: rgba(255, 255, 255, 0.2);
+    }
+    .tab-info{
+        border-radius: 0 24px 24px 24px;
+        backdrop-filter: blur(30px);
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(181, 181, 181, 0.2) 100%);
+        padding: 40px;
+        height: 341px;
+        box-sizing: border-box;
+        .tab-secondMenu{
+            display: flex;
+            flex-wrap: wrap;
+            li{
+                font-family: "Montserrat", sans-serif;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 140%;
+                color: #fff;
+                border: 1px solid #fff;
+                border-radius: 12px;
+                padding: 10px 14px;
+                opacity: 0.6;
+                margin-right: 8px;
+                margin-bottom: 12px;
+                cursor: pointer;
+            }
+            li:last-child{
+                margin-right: 0;
+            }
+            .secondMenu-active{
+                backdrop-filter: blur(30px);
+                opacity: 1;
+            }
+        }
+    }
+    .tab-content{
+        margin-top: 13px;
+        p{
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 140%;
+            color: #fff;
+            opacity: 0.8;
+            margin-bottom: 16px;
+        }
+        p:last-child{
+            margin-bottom: 0px;
+
         }
     }
 }
